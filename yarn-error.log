@@ -1,0 +1,31 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\panka\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\panka\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\panka\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Go\bin;C:\Users\panka\AppData\Local\Programs\Python\Python39;C:\Users\panka\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\panka\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\panka\anaconda3;C:\Users\panka\anaconda3\Library\mingw-w64\bin;C:\Users\panka\anaconda3\Library\usr\bin;C:\Users\panka\anaconda3\Library\bin;C:\Users\panka\anaconda3\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\panka\AppData\Local\Microsoft\WindowsApps;C:\Users\panka\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\panka\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\panka\go\bin;C:\Program Files\Go\bin;C:\Users\panka\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  12.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Users\panka\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:96815:59)
+      at Object.<anonymous> (C:\Users\panka\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:89088:38)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\panka\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\panka\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
