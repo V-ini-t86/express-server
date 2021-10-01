@@ -1,10 +1,12 @@
 const express = require("express");
 const nodemailer = require("nodemailer");
+const cors = use("cors");
 // const dotenv = require("dotenv");
 // dotenv.config();
 const port = process.env.PORT || 3000;
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.json({ success: "Hello World" });
@@ -34,7 +36,7 @@ app.post("/send", (req, res, next) => {
   let mail = {
     from: email,
     to: email,
-    subject: "Contact form request",
+    subject: `Contact form request ${name}`,
 
     html: message,
   };
@@ -48,5 +50,5 @@ app.post("/send", (req, res, next) => {
   });
 });
 app.listen(port, () => {
-  console.log(`server is running on port 3000 `);
+  console.log(`server is running on port ${port} `);
 });
